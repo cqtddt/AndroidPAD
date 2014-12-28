@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- activity_splash.xml -->
+    <dimen name="activity_splash_title_size">50sp</dimen>
+    <dimen name="activity_splash_author_size">20sp</dimen>
+    <dimen name="activtiy_splash_percentage_size">20sp</dimen>
+    
+    <!-- activity_login.xml -->
+    <dimen name="activity_login_username_size">20sp</dimen>
+	<dimen name="activity_login_password_size">20sp</dimen>
+	<dimen name="activity_login_button_size">20sp</dimen>
+	<dimen name="activity_login_setting_size">20sp</dimen>
+	
+	<!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name = "shadow_width" > 15dp </dimen >
+	<dimen name = "slidingmenu_offset" > 150dp </dimen >
+	
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_item_name">
+	    <item>拓 扑 表</item>
+	    <item>下拉刷新</item>
+	    <item>功 能 三</item>
+	    <item>功 能 四</item>
+	</string-array>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:id="@+id/radio_group_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/base_info_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/green"
+            android:button="@null"
+            android:text="@string/base_info_tv" />
+
+        <RadioButton
+            android:id="@+id/enter_internet_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/green"
+            android:button="@null"
+            android:text="@string/enter_internet_info_tv" />
+
+        <RadioButton
+            android:id="@+id/no_internet_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/green"
+            android:button="@null"
+            android:text="@string/no_internet_info_tv" />
+
+        <RadioButton
+            android:id="@+id/no_namelist_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/green"
+            android:button="@null"
+            android:text="@string/no_namelist_info_tv" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp" >
+
+        <Button
+            android:id="@+id/topo_table_refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_settings" />
+
+        <Button
+            android:id="@+id/topo_table_read_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_settings" />
+
+        <Button
+            android:id="@+id/topo_table_null_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_settings" />
+
+        <Button
+            android:id="@+id/topo_table_export_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_settings" />
+    </LinearLayout>
+
+     <FrameLayout
+        android:id="@+id/fragment_child_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/radio_group_layout"
+        android:layout_toLeftOf="@id/button_layout"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp">
+    </FrameLayout>
+    
+    <View 
+        android:id="@+id/menu_position_view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:paddingTop="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>

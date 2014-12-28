@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <color name="text_white_shadow_color">#ff5a9487</color>  -->
+    <color name="tools_box_bg">#ff333332</color>
+    <color name="text_white_shadow_color">#ff5a9487</color>
+    
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+
+    <color name="red">#ffff0000</color>
+    <color name="orangle">#fffff000</color>
+    <color name="yellow">#ffffff00</color>
+    <color name="green">#ff00ff00</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="purple">#fff000ff</color>
+    
+    <!-- fragment_round_bg -->
+    <color name="fragment_round_bg">#228B22</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="light_orange">#fcb75c</color>
+    <color name="alpha_00">#00000000</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="trans">#50000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="grey">#BEBEBE</color>
+    
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    
+    <!--  <LinearLayout
+        android:id="@+id/login_username_layout" 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_marginRight="20dp"
+	    android:layout_marginTop="20dp"
+	    android:orientation="horizontal"
+	    >-->
+       
+         <EditText
+	        android:id="@+id/login_usrname"
+	        android:layout_width="220dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginRight="20dp"
+		    android:layout_marginTop="20dp"
+	        android:textSize="@dimen/activity_login_username_size"
+	        android:textColor="@android:color/black"
+	        android:inputType="text"
+	        android:hint="@string/login_username_hint"
+	        android:singleLine="true"
+	        android:maxLength="10"
+	        />
+          <TextView 
+	        android:id="@+id/user_label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/login_usrname"
+	        android:layout_marginTop="28dp"
+	        android:text="@string/login_username"
+	        android:textSize="@dimen/activity_login_username_size"
+	        android:textColor="@android:color/black"
+	        />
+         <!--  
+    </LinearLayout>
+    <LinearLayout 
+    	     android:id="@+id/login_password_layout" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@id/login_username_layout"
+		    android:layout_marginRight="20dp"
+		    android:orientation="horizontal">-->
+		    <EditText
+    	         android:id="@+id/login_password"
+    	         android:layout_width="220dp"
+    	         android:layout_height="wrap_content"
+    	         android:layout_alignParentRight="true"
+		    	 android:layout_marginRight="20dp"
+		    	 android:layout_below="@id/login_usrname"
+    	         android:hint="@string/login_password_hint"
+    	         android:inputType="textPassword"
+    	         android:maxLength="10"
+    	         android:singleLine="true"
+    	         android:textColor="@android:color/black"
+    	         android:textSize="@dimen/activity_login_password_size" />
+        	<TextView 
+	        android:id="@+id/password_label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@id/login_password"
+	        android:layout_below="@id/user_label"
+	        android:layout_marginTop="20dp"
+	        android:layout_alignRight="@id/user_label"
+	        android:text="@string/login_password"
+	        android:textSize="@dimen/activity_login_password_size"
+	        android:textColor="@android:color/black"
+	        />
+
+    	     
+<!--  
+    </LinearLayout>-->
+
+        <TextView
+            android:id="@+id/login_tourist"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/login_password"
+            android:layout_centerVertical="true"
+            android:text="@string/login_tourist"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/activity_login_button_size" />
+
+        <Button
+            android:id="@+id/login_reset"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/login_usrname"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22dp"
+            android:text="@string/login_reset"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/activity_login_button_size" />
+
+        <Button
+            android:id="@+id/login_ok"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/login_reset"
+            android:layout_alignBottom="@+id/login_reset"
+            android:layout_alignLeft="@+id/password_label"
+            android:background="@anim/button_login"
+            android:text="@string/login_ok"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/activity_login_button_size" />
+    
+</RelativeLayout>

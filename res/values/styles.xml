@@ -1,0 +1,79 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+        <style name="Theme.Custom" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="android:actionButtonStyle">@style/CustomActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomActionOverflowButtonStyle</item>
+        <!-- Change home button background -->
+        <item name="android:selectableItemBackground">@android:color/transparent</item>
+    </style>
+    
+    <style name="CustomActionBarStyle" parent="@android:style/Widget.ActionBar">
+
+        <!-- Change action bar background color -->
+        <item name="android:background">@color/blue</item>
+        <!-- Change split action bar background color 
+        <item name="android:backgroundSplit">@color/blue</item>-->
+        <item name="android:titleTextStyle">@style/CustomTitleTextStyle</item>
+    </style>
+
+    <style name="CustomTitleTextStyle" >
+        <!-- parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"> -->
+
+        <!-- Change action bar title color -->
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="CustomActionButtonStyle" parent="@android:style/Widget.ActionButton">
+
+        <!-- Change action button background color -->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomActionOverflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+
+        <!-- Change overflow button background color -->
+        <item name="android:background">@color/green</item>
+    </style>
+
+    <style name="title_font">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/text_white_shadow_color</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="animation">
+        <item name="android:windowEnterAnimation">@anim/enter</item> 
+     	<item name="android:windowExitAnimation">@anim/exit</item>
+    </style>
+
+    <style name="item_not_in_list_text_style">
+        <item  name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000099</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="sort_item_not_in_list_style">
+        <item  name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="sort_text_size">12sp</item>
+    </style>
+</resources>

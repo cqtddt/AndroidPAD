@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="circle_view">
+        <attr name="inner_circle_radius" format="dimension"></attr>
+        <attr name="in_circle_color" format="color"></attr>
+        <attr name="out_cirle_radius" format="dimension"></attr>
+        <attr name="circle_ring_width" format="dimension"></attr>
+        <attr name="circle_ring_color" format="color"></attr>
+        <attr name="first_color" format="color|reference"></attr>
+        <attr name="second_color" format="color|reference"></attr>
+        <attr name="third_color" format="color|reference"></attr>
+        <attr name="fourth_color" format="color|reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="sort_view">
+        <attr name="sort_title_text" format="string|reference"></attr>
+        <attr name="sort_text_size" format="dimension|reference"></attr>
+        <attr name="sort_text_background" format="color|reference"></attr>
+        <attr name="sort_indicator_img" format="color|reference"></attr>
+    </declare-styleable>
+</resources>

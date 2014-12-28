@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HiStudio</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- activity_splash.xml -->
+	<string name="splash_title">HSO 管理系统</string>
+	<string name="splash_author">作者：申建利</string>
+	<string name="splash_percentage">%0</string>
+	
+	<!-- activity_login.xml -->
+	<string name="login_username">用户名：</string>
+	<string name="login_password">密 码：</string>
+	<string name="login_username_hint">请输入用户名&#8230;</string>
+	<string name="login_password_hint">请输入密码&#8230;</string>
+	<string name="login_ok">登录</string>
+	<string name="login_reset">重置</string>
+	<string name="login_tourist">游客登录</string>
+	<string name="loign_setting">设置</string>
+	
+	<!-- button_custom.xml -->
+	<string name="custom_calculate">计算</string>
+	<string name="custom_calculating">计算中</string>
+	
+	
+	<!-- fragment_topo_table_layout -->
+	<string name="base_info_tv">基本信息</string>
+	<string name="enter_internet_info_tv">入网</string>
+	<string name="no_internet_info_tv">未入网</string>
+	<string name="no_namelist_info_tv">未在白名单</string>
+	
+	<!-- fragment_topo_table_base_info_layout.xml -->
+	<string name="refresh_time_hint">刷新时间</string>
+	<string name="refresh_default_time">00:00</string>
+	<string name="online_node_count_hint">在网节点个数：</string>
+	<string name="node_defaut_count_tv">0</string>
+	<string name="node_count_unit">个</string>
+	
+	<string name="first_tv">第一种设备</string>
+	<string name="second_tv">第二种设备</string>
+	<string name="third_tv">第三种设备</string>
+	<string name="fourth_tv">第四种设备</string>
+	<string name="device_default_count">0  个</string>
+	
+	<string name="export_data_title">编号,姓名,年龄,</string>
+	
+	<string name="item_not_in_list_id">编号</string>
+	<string name="item_not_in_list_name">姓名</string>
+	<string name="item_not_in_list_job">工作</string>
+	<string name="item_not_in_list_phone">手机号码</string>
+	<string name="item_not_in_list_more">更多</string>
+
+	<string-array name="sss">
+	    <item>ss</item>
+	</string-array>
+	
+	<string name="time">asfas</string>
+</resources>

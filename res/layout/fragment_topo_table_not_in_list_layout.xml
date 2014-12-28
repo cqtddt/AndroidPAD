@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cyan"
+    >
+    <!-- 
+    <RelativeLayout 
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        >
+        <include
+	    android:id="@+id/layout1"
+	    layout="@layout/sort_item_not_in_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+   </RelativeLayout>
+   <ListView
+	    android:id="@+id/not_in_list_listview" 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/red"
+	    android:layout_below="@+id/sort_item_layout1"
+	    android:focusable="false"
+	    android:divider="@color/purple"
+	    android:dividerHeight="1dp"
+	    android:choiceMode="singleChoice"
+	    android:scrollingCache="true"
+	    ></ListView>
+    -->
+	  <include
+	    layout="@layout/sort_item_not_in_list"/>
+	<TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="ssssssssssssss"
+	    android:layout_alignParentBottom="true"/>
+</RelativeLayout>
